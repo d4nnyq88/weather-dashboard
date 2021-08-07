@@ -207,7 +207,6 @@ function getFiveDayForecast(latitude, longitude){
 function getLocation(event) {
     event.preventDefault();
     var location = searchInputEl.value;
-    window.alert(location);
     forecastDataSection.innerHTML = '';
     if (!location) {
         window.alert('Please enter a location.');
