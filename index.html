@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1 navbar-center">Weather Dashboard</span>
+            </div>
+        </nav>
+    </header>
+    <div class="main-content">
+        <aside>
+            <form>
+                <div class="form-group">
+                <label for="searchCity">Search for a City:</label>
+                <input type="search" class="form-control" id="search-input" placeholder="Atlanta">              
+                </div>            
+                <button type="submit" class="btn btn-primary" form="searchForm" id="search-button">Search</button>
+            </form>
+            <hr />
+            <div class="list-group">
+                <ul id="history"></ul>
+            </div>
+        </aside>    
+        <div class="weather-data">
+            <section>
+                <h2 id="current-city"></h2>
+                <p id="current-temp"></p>
+                <p id="current-wind"></p>
+                <p id="current-humidity"></p>
+                <p id="current-uvi"><span id="uvi-value"></span></p>
+            </section>
+            <h3 class="forecast-heading">5-Day Forecast:</h3>
+            <section class="forecast-data"></section>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

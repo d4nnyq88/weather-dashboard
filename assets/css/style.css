@@ -1,0 +1,87 @@
+.navbar-center {
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 1.5em;    
+}
+
+aside {
+    width: 25%;
+    margin: 2em;
+}
+
+.btn {
+    width: 100%;
+}
+
+.list-group ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group ul li button {
+    width: 100%;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content:;
+}
+
+.weather-data {
+    display: flex;
+    flex-direction: column;
+    width: 75%; 
+    margin: 2em;    
+}
+
+.current-city {
+    border-color: black;
+    border-width: 1px;
+}
+
+.forecast-data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card {
+    padding: 0.025em;
+    width: 19%;
+}
+
+#favorable {
+    background-color: green;
+    border-radius: 0.25em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#moderate {
+    background-color: yellow;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 0.25em;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#severe {
+    background-color: red;
+    border-radius: 0.25em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
