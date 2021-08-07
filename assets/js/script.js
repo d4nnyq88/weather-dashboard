@@ -210,6 +210,7 @@ function getLocation(event) {
     forecastDataSection.innerHTML = '';
     if (!location) {
         window.alert('Please enter a location.');
+        return;
     }
     //api.openweathermap.org/data/2.5/find?q=London&appid=971216a37d6d8963b0824cde5c5d2a68
 
