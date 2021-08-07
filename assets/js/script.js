@@ -32,7 +32,6 @@ function createHistoryButton(location) {
 function updateContentPane(event) {
     var buttonClicked = event.target;
     var location = buttonClicked.getAttribute("data-location");
-    window.alert(location);
     forecastDataSection.innerHTML = '';
     // currentCityEl.textContent = location;
     var url = `${apiUrl}/data/2.5/weather?q=${location}&units=imperial&appid=${appId}`;
